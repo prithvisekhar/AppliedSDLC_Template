@@ -35,11 +35,13 @@ int main()
 /* Write all the test functions */ 
 void test_add(void) {
   TEST_ASSERT_EQUAL(30, add(10, 20));
-  
+  TEST_ASSERT_EQUAL(-10, add(10, -20));
+}
+void test_add_testcase2(void) {
+ 
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(1500, add(750, 7500));
 }
-
 void test_subtract(void) {
   TEST_ASSERT_EQUAL(-3, subtract(0, 3));
   
