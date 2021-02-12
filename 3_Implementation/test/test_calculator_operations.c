@@ -7,6 +7,7 @@
 
 /* Prototypes for all the test functions */
 void test_add(void);
+void test_add_testcase2(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
@@ -24,6 +25,7 @@ int main()
 
 /* Run Test functions */
   RUN_TEST(test_add);
+  RUN_TEST(test_add_testcase2);
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
