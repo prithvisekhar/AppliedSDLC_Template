@@ -1,4 +1,4 @@
-# CTEA Team 2 Mahavir Task 2C and 2D
+# SDLC Activity Based Learning
 
 Visit [Pages for Report -optional](using github.io option)
 
