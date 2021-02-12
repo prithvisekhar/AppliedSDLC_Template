@@ -20,8 +20,9 @@ INC	= -Iinc\
 -Iunity\
 
 #Library Inlcudes
-#INCLUDE_LIBS = 
-INCLUDE_LIBS = -lcunit
+#if working with CUnit 
+#INCLUDE_LIBS = -lcunit
+INCLUDE_LIBS =
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
@@ -48,7 +49,7 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 
 # Remove all the built files, invoke by `make clean`
