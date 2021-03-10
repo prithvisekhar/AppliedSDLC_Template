@@ -25,9 +25,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install gcov 
       run: sudo apt -y install gcovr
-    # - name: make
-    #  run: make -C 3_Implementation/ coverageCheck
-    - name: GCov without make
-      run: g++ -fprofile-arcs -ftest-coverage -fPIC -O0 src/calculator_operations.c test/test_calculator_operations.c unity/unity.c  -Iinc -Iunity  -o build/Test_Calculator.out
-          ./build/Test_Calculator.out
-          gcovr -r .
+    - name: make coverage
+      run: make -C 3_Implementation/ coverageCheck
+    - name: GCov only
+      run:  gcovr -r .
