@@ -34,17 +34,18 @@ jobs:
         gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc .
         gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc . > ~/result.html
         echo "======================================"
-    - name : Update Results to gh-pages
-      uses: actions/checkout@v2
-      with:
-        ref: gh-pages
-    - name: Update Results to gh-pages
-      run: |
-        pwd
-        rm -f result.html
-        mv ~/result.html result.html
-        git config user.name "GitHub Actions"
-        git config user.email actions@github.com
-        git add result.html
-        git commit -m "[auto] Update Results for commit SHA $GITHUB_SHA"
-        git push
+   #If using gihub io pages feature
+   # - name : Update Results to gh-pages
+   #   uses: actions/checkout@v2
+   #   with:
+   #     ref: gh-pages
+   # - name: Update Results to gh-pages
+   #  run: |
+   #     pwd
+   #     rm -f result.html
+   #     mv ~/result.html result.html
+   #     git config user.name "GitHub Actions"
+   #     git config user.email actions@github.com
+   #     git add result.html
+   #     git commit -m "[auto] Update Results for commit SHA $GITHUB_SHA"
+   #     git push
