@@ -24,7 +24,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
+1. AB
 2. BCD
 3. ...
 4. ...
