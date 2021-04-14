@@ -1,4 +1,4 @@
-# SDLC Activity Based Learning
+# Personal Diary Application - SDLC Activity Based Learning
 
 Visit [Pages for Report -optional](using github.io option)
 
