@@ -37,13 +37,11 @@ The project will run in the command line with a minimal UI.
 It will use file system of the os to store and read the text files.
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
 -- 1 | To create a personal dairy | Status (Future)
 -- 2 | To create a minimal ui to navigate | Status (Future)
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
 -- 1 | To create text file | Status (Implemented/Future)
 -- 2 | To read text file | Status (Implemented/Future)
 -- 3 | To update text file | Status (Implemented/Future)
