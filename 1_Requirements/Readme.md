@@ -1,8 +1,8 @@
 # Requirements
 ## Introduction
- --- Creating a personal dairy using C language.
- --- Applying CRUD (Create Read Update Delete) operations to the saved text.
- --- Simple Command line UI to navigate through.
+ Creating a personal dairy using C language.
+ Applying CRUD (Create Read Update Delete) operations to the saved text.
+ Simple Command line UI to navigate through.
 
 ## Research
 ![Description](Link to Pic)
