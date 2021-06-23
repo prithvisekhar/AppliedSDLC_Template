@@ -5,7 +5,7 @@
 ## Research
 ![Description](Link to Pic)
 -- Content 
-## Cost and Features
+## Cost and Features and Timeline
 ![Description](Link to Pic)
 -- Content 
 ## Defining Our System
